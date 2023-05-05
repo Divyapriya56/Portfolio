@@ -1,0 +1,118 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#navbarSupportedContent {
+    ul li a {
+        color: #fff;
+    }
+}
+
+#navbarSupportedContent {
+    ul li :hover {
+        color: #fc466b;
+    }
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.home-section {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    
+    .home{
+        .home-content{
+            border: 15px solid #fc466b;
+            padding: 58px;
+            border-radius: 28px;
+        }
+    }
+
+    h1 {
+        color: #fff;
+
+        span {
+            color: #fc466b;
+            font-size: 48px;
+            font-weight: 700;
+
+        }
+    }
+
+    p {
+        color: #fff;
+    }
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 51px solid #fc466b;
+    /* display: flex; */
+    margin-left: 250px;
+    border-radius:10px
+
+  }
+
+@media (min-width: 1281px) {}
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+// @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .home-section {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        height: auto;
+        h1 {
+            span {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .home-section {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        height: auto;
+
+        h1 {
+            span {
+                font-size: 25px;
+            }
+        }
+        .home{
+            .home-content{
+                border: 0px;
+            padding: 20px ;
+            border-radius: 0px ;
+            }
+        }
+    }
+
+
+
+}
