@@ -31,11 +31,20 @@
 
 .home-image{
     background-color: #fc466b;
+    .circle-image{
+        position:absolute;
+        top: 350px;
+        left: 503px;
+        background-color: white;
+        border-radius: 50%;
+        width:13%;
+        height: 27%;
+    }
 }
 .home-section{
     background-color: black;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     .home-content-wrapper{
@@ -144,8 +153,13 @@
 // @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
 
 @media (min-width: 481px) and (max-width: 767px) {
+    .home-image{
+        height: 30vh
+    }
     .home-section{
-        padding: 0px 15px;
+        padding: 15px 15px;
+        align-items: start;
+        height: auto;
         .home-content-wrapper{
             h1{
                 font-size:20px;
@@ -177,8 +191,13 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .home-image{
+        height: 30vh
+    }
     .home-section{
-        padding: 0px 15px;
+        padding: 15px 15px;
+        align-items: start;
+        height: auto;
         .home-content-wrapper{
             h1{
                 font-size:20px;
