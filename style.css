@@ -23,53 +23,156 @@
   flex-grow: 0;
 }
 
+.home-image {
+  background-color: #fc466b;
+}
+
 .home-section {
-  background-color: #333;
+  background-color: black;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   height: 100vh;
 }
-.home-section h1 {
-  color: #fff;
+.home-section .home-content-wrapper h1 {
+  color: #e3dedf;
 }
-.home-section h1 span {
+.home-section .home-content-wrapper h1 span {
   color: #fc466b;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 600;
 }
-.home-section p {
-  color: #fff;
+.home-section .home-content-wrapper p {
+  color: #e3dedf;
+  font-size: 16px;
+}
+.home-section .home-content-wrapper .social-media {
+  margin-top: 40px;
+}
+.home-section .home-content-wrapper .social-media p {
+  color: #e3dedf;
+  font-size: 16px;
+}
+.home-section .home-content-wrapper .social-media-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.home-section .home-content-wrapper .social-media-icons i {
+  font-size: 2rem;
 }
 
-.triangle {
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 51px solid #fc466b;
-  /* display: flex; */
-  margin-left: 257px;
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .home-section {
+    padding: 0px 15px;
+  }
+  .home-section .home-content-wrapper h1 {
+    font-size: 25px;
+  }
+  .home-section .home-content-wrapper h1 span {
+    font-size: 30px;
+  }
+  .home-section .home-content-wrapper p {
+    font-size: 16px;
+  }
+  .home-section .home-content-wrapper .social-media {
+    margin-top: 40px;
+  }
+  .home-section .home-content-wrapper .social-media p {
+    color: #e3dedf;
+    font-size: 14px;
+  }
+  .home-section .home-content-wrapper .social-media-icons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .home-section .home-content-wrapper .social-media-icons i {
+    font-size: 2rem;
+  }
 }
-
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-section {
+    padding: 0px 15px;
+  }
+  .home-section .home-content-wrapper h1 {
+    font-size: 20px;
+  }
+  .home-section .home-content-wrapper h1 span {
+    font-size: 25px;
+  }
+  .home-section .home-content-wrapper p {
+    font-size: 14px;
+  }
+  .home-section .home-content-wrapper .social-media {
+    margin-top: 40px;
+  }
+  .home-section .home-content-wrapper .social-media p {
+    color: #e3dedf;
+    font-size: 14px;
+  }
+  .home-section .home-content-wrapper .social-media-icons {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+  }
+  .home-section .home-content-wrapper .social-media-icons i {
+    font-size: 1rem;
+  }
+}
 @media (min-width: 481px) and (max-width: 767px) {
   .home-section {
-    background-color: #333;
-    display: flex;
-    align-items: center;
-    height: auto;
+    padding: 0px 15px;
   }
-  .home-section h1 span {
+  .home-section .home-content-wrapper h1 {
+    font-size: 20px;
+  }
+  .home-section .home-content-wrapper h1 span {
     font-size: 25px;
+  }
+  .home-section .home-content-wrapper p {
+    font-size: 14px;
+  }
+  .home-section .home-content-wrapper .social-media {
+    margin-top: 40px;
+  }
+  .home-section .home-content-wrapper .social-media p {
+    color: #e3dedf;
+    font-size: 14px;
+  }
+  .home-section .home-content-wrapper .social-media-icons {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+  }
+  .home-section .home-content-wrapper .social-media-icons i {
+    font-size: 1rem;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .home-section {
-    background-color: #333;
-    display: flex;
-    align-items: center;
-    height: auto;
+    padding: 0px 15px;
   }
-  .home-section h1 span {
+  .home-section .home-content-wrapper h1 {
+    font-size: 20px;
+  }
+  .home-section .home-content-wrapper h1 span {
     font-size: 25px;
+  }
+  .home-section .home-content-wrapper p {
+    font-size: 14px;
+  }
+  .home-section .home-content-wrapper .social-media {
+    margin-top: 40px;
+  }
+  .home-section .home-content-wrapper .social-media p {
+    color: #e3dedf;
+    font-size: 14px;
+  }
+  .home-section .home-content-wrapper .social-media-icons {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+  }
+  .home-section .home-content-wrapper .social-media-icons i {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
