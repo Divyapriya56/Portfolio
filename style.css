@@ -26,20 +26,39 @@
 .home-image {
   background-color: #fc466b;
 }
+.home-image .social-media-icons {
+  position: absolute;
+  bottom: 0;
+}
+.home-image .social-media-icons p {
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+.home-image .social-media-icons .icons {
+  font-size: 1.5rem;
+  color: black;
+  padding-left: 20px;
+}
 .home-image .circle-image {
   position: absolute;
-  top: 350px;
-  left: 503px;
+  top: 246px;
+  left: 394px;
   background-color: white;
   border-radius: 50%;
-  width: 13%;
-  height: 27%;
+  width: 25%;
+  height: 50%;
+}
+.home-image .circle-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 
 .home-section {
   background-color: black;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   height: 100vh;
 }
@@ -55,19 +74,41 @@
   color: #e3dedf;
   font-size: 16px;
 }
-.home-section .home-content-wrapper .social-media {
-  margin-top: 40px;
-}
-.home-section .home-content-wrapper .social-media p {
-  color: #e3dedf;
-  font-size: 16px;
-}
-.home-section .home-content-wrapper .social-media-icons {
+.home-section .home-content-wrapper .button-wrapper {
   display: flex;
   justify-content: space-between;
 }
-.home-section .home-content-wrapper .social-media-icons i {
-  font-size: 2rem;
+.home-section .home-content-wrapper .button-wrapper .btn {
+  background-color: #fc466b;
+  border: none;
+  color: black;
+  font-weight: 600;
+  box-shadow: #fc466b;
+}
+.home-section .home-content-wrapper .button-wrapper .btn:hover {
+  background-color: black;
+  color: #fc466b;
+  border: 1px solid #fc466b;
+}
+
+.about {
+  background-color: black;
+}
+.about .about-me {
+  margin-top: 40px;
+}
+.about .about-me .title h1 {
+  color: #fc466b;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.about .about-me .about-me-content p {
+  font-size: 14px;
+  color: #e3dedf;
+  text-align: justify;
+  padding: 20px;
+  line-height: 30px;
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -97,6 +138,19 @@
   .home-section .home-content-wrapper .social-media-icons i {
     font-size: 2rem;
   }
+  .about .about-me {
+    margin-top: 20px;
+  }
+  .about .about-me .title h1 {
+    letter-spacing: 3px;
+  }
+  .about .about-me .about-me-content p {
+    font-size: 14px;
+    color: #e3dedf;
+    text-align: justify;
+    padding: 10px;
+    line-height: 20px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .home-section {
@@ -125,6 +179,19 @@
   }
   .home-section .home-content-wrapper .social-media-icons i {
     font-size: 1rem;
+  }
+  .about .about-me {
+    margin-top: 20px;
+  }
+  .about .about-me .title h1 {
+    letter-spacing: 3px;
+  }
+  .about .about-me .about-me-content p {
+    font-size: 14px;
+    color: #e3dedf;
+    text-align: justify;
+    padding: 10px;
+    line-height: 20px;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -160,6 +227,19 @@
   .home-section .home-content-wrapper .social-media-icons i {
     font-size: 1rem;
   }
+  .about .about-me {
+    margin-top: 20px;
+  }
+  .about .about-me .title h1 {
+    letter-spacing: 3px;
+  }
+  .about .about-me .about-me-content p {
+    font-size: 14px;
+    color: #e3dedf;
+    text-align: justify;
+    padding: 10px;
+    line-height: 20px;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .home-image {
@@ -193,5 +273,18 @@
   }
   .home-section .home-content-wrapper .social-media-icons i {
     font-size: 1rem;
+  }
+  .about .about-me {
+    margin-top: 20px;
+  }
+  .about .about-me .title h1 {
+    letter-spacing: 3px;
+  }
+  .about .about-me .about-me-content p {
+    font-size: 14px;
+    color: #e3dedf;
+    text-align: justify;
+    padding: 10px;
+    line-height: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
